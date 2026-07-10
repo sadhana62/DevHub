@@ -50,7 +50,8 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/stack" element={<StackPage />} />
-          <Route path="/status" element={<StatusPage />} />
+          <Route path="/search" element={<StatusPage />} />
+          
         </Routes>
       </main>
     </div>
